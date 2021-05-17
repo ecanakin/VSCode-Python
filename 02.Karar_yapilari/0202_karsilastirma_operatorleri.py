@@ -28,3 +28,9 @@ print(ogrenciYas >= 18)
 uName = input("Lütfen adınızı giriniz :")
 print(f"Sonucunuz → {uName == 'Ekin'}")
 #endregion
+
+yas = int(input("Yaşınızı giriniz : "))
+print(yas >= 18)
+
+kullanici = input("Kullanıcı adını giriniz : ")
+print(f"Kullanıcı adınız → {kullanici == "admin"}")
