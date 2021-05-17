@@ -18,3 +18,11 @@ uName = input("Kullanıcı adınızı giriniz \t:")
 if uName != "Ekin" :
     print(f"{uName} adlı misafir panele giriş yapamaz.")
 #endregion
+
+sayi = int(input("Bir sayı giriniz :"))
+if sayi < 0 :
+    print(f"{sayi} negatiftir.")
+
+kullanici = input("Adınızı giriniz : ")
+if kullanici != "admin" : 
+    print(f"{kullanici} yetkisi ile admin paneline giremezsiniz.")
