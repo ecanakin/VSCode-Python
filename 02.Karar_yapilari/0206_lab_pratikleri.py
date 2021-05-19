@@ -1,3 +1,4 @@
+
 #region odev
 bilet = int(input("Lütfen bilet fiyatını giriniz : "))
 bavulKilo = 10
@@ -61,4 +62,17 @@ print(f"{s1} ve {s2} değerlerinin ortalaması → {(s1+s2)/2}")
 if (s1+s2)/2 > 50:
     print(f"GEÇTİNİZ. {s1} ve {s2} değerlerinin ortalaması → {(s1+s2)/2}")
 print("Sağlıkla kalın.", end = " :)")
+#endregion
+#region odev_7
+a = 7
+b = 10
+c = 4
+eb = 0
+if a > eb :
+    eb = a
+if b > eb :
+    eb = b
+if c > eb :
+    eb = c
+print(f"En büyük değer {eb}")
 #endregion

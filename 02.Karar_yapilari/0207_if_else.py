@@ -1,3 +1,4 @@
+"""
 #region odev
 havaDurumu = "yağmurlu"
 if havaDurumu == "yağmurlu" :
@@ -23,4 +24,12 @@ if sayi % 2 == 0 :
     print(f"{sayi} çifttir.")
 else :
     print (f"{sayı} tektir.")
+#endregion
+"""
+#region odev_3
+sayi = int(input("Lütfen bir sayı giriniz\t:"))
+if sayi % 2 == 0 :
+    print(f"{sayi} sayısı çifttir.")
+else :
+    print(f"{sayi} sayısı tektir.")
 #endregion

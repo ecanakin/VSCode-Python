@@ -1,4 +1,5 @@
 #nested if → iç içe if demektir.
+"""
 #region odev
 havaYagisliMi = False 
 havaSogukMu = True
@@ -25,4 +26,16 @@ else:
         print("100 değerini girdiniz.")
     else :
         print(f"{a} olarak girdiğiniz değer 100'den büyüktür..")
+#endregion
+"""
+#region odev_2
+sayi = int(input("Bir sayı giriniz\t:"))
+if sayi <= 0 :
+    print("Başka bir değer giriniz.")
+else :
+    if sayi > 0 :
+        if sayi < 100 :
+            print("Sayınız 100'den küçük pozitiftir.")
+        else :
+            print("Sayı 100'den küçük, pozitiftir.")
 #endregion
