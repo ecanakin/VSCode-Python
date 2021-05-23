@@ -1,4 +1,4 @@
-"""
+
 #region odev
 n1, n2 = int(input("Birinci sınav notunu giriniz : ")), int(input("İkinci sınav notunu giriniz : "))
 ort = (n1+n2)/2
@@ -126,10 +126,9 @@ else:
     print("payda 0 girilemez.")
 
 #endregion
-"""
+
 
 #region ödev 
-"""
     - Klavyeden iki tane fiyat verisi alınır.
     - Eğer bu fiyat verileri düzgünse;
         - Eğer ödenecek tutar 200TL den fazlaysa, ikinci ürüne
@@ -137,7 +136,7 @@ else:
         - Değilse bişey yapılmayacak.
     - 150,300 -> Ürünlerin fiyatı .. TL ve .. TL'dir. İkinci ürüne
      .. TL indirim yapılmıştır. Borcunuz : ..TL'dir.
-"""
+
 fiyat_1 = int(input("1.fiyatı giriniz\t:"))
 fiyat_2 = int(input("2.fiyatı giriniz\t:"))
 toplam = fiyat_1 + fiyat_2
