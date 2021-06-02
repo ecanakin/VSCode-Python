@@ -37,3 +37,6 @@ while True :
         print(f" {oad} adlı öğrenci bulunamadı.")
 #endregion
 
+olistesi = ["ali","kemal","mehmet","mustafa"]
+for i in range(len(olistesi)) :
+    print(olistesi[i])
