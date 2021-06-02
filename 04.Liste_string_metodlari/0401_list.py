@@ -40,7 +40,7 @@ print(sayilar)
 sayilar = [11, 15, 7, 12, 15, 25]
 print(len(sayilar))
 print(sayilar[len(sayilar)-1])
-print(sayilar[len(sayilar) // 2]) #ortadaki değer
+print(sayilar[len(sayilar) // 2])  # ortadaki değer
 
 print()
 # endregion
@@ -50,31 +50,33 @@ sayilar = [11, 15, 7, 12, 15, 25]
 print(sayilar)
 del sayilar[1]
 print(sayilar)
-#endregion
+# endregion
 
 # region loop_ile_oku
-sayilar = [12,36,9,5,3,74]
+sayilar = [12, 36, 9, 5, 3, 74]
 print(sayilar)
-for i in sayilar :
-    if i > 30 :
-        print(i, end = " ")
-#endregion
+for i in sayilar:
+    if i > 30:
+        print(i, end=" ")
+# endregion
 
 # region toplama
 
-sayilar = [12,36,9,5,3,74]
+sayilar = [12, 36, 9, 5, 3, 74]
 toplam = 0
 print(sayilar)
-for i in sayilar :
+for i in sayilar:
     toplam += i
 print(toplam)
 
-#endregion
-sayilar = [12,36,9,5,3,74]
+# endregion
+
+#region
+sayilar = [12, 36, 9, 5, 3, 74]
 adet = 0
 print(sayilar)
-for i in sayilar :
-    if i % 2 != 0 :
+for i in sayilar:
+    if i % 2 != 0:
         adet += 1
 print(adet)
-# region toplama
+# endregion
